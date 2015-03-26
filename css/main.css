@@ -7261,6 +7261,11 @@ footer:after {
   box-shadow: none;
   -webkit-box-shadow: none;
 }
+@media (max-width: 480px) {
+  .glyphicon-input {
+    display: none;
+  }
+}
 .custom-select {
   width: 205px;
   position: relative;
@@ -8500,6 +8505,9 @@ dd.p-0 {
 .avail-no-border {
   border-bottom: none !important;
   padding-bottom: 70px;
+}
+.more-link {
+  display: none;
 }
 .skin-white {
   background: #fff;
@@ -11132,10 +11140,5 @@ dd.p-0 {
   }
   .dropdown-responsive-right {
     width: 47%;
-  }
-}
-@media (max-width: 480px) {
-  .glyphicon-input {
-    display: none;
   }
 }
