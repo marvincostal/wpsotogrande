@@ -8325,6 +8325,13 @@ dd.p-0 {
     width: 100%;
   }
 }
+@media (max-width: 1148px) and (min-width: 1232px) {
+  .nav-responsive-two {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
 @media (max-width: 1131px) and (min-width: 1025px) {
   .nav-responsive-two {
     margin: 0 0;
